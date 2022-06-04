@@ -1,0 +1,5 @@
+Q   How to check the linking HANA views to the External View in ABAP layer?
+Sol - Go to SE11-->DD25L --> provide the view name and then you can able to see "DBREFNAME"
+
+Q.  How to check the linking of CDS view name and SQL VIew Name?
+Sol DD*DEPENDENCY (DDLSOURCEDEPENDENCY) 
